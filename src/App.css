@@ -1,0 +1,298 @@
+.header {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  line-height: 28.11px;
+  font-weight: 700;
+}
+.bar {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: white;
+}
+.content {
+  margin-left: 100px;
+  width: 700px;
+  height: 700px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.title {
+  width: 530px;
+  font-size: 48px;
+  line-height: 56.3px;
+  font-weight: 400;
+}
+.text {
+  width: 320px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.inputContainer {
+  width: 530px;
+  gap: 20px;
+}
+.input {
+  width: 320px;
+  height: 52px;
+  border: 0.5px solid grey;
+  padding-left: 20px;
+  border-radius: 4px;
+}
+.button {
+  width: 160px;
+  height: 56px;
+  background-color: #0bbef2;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  border: 0.5px solid grey;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.button:hover,
+.input:hover {
+  box-shadow: 0px 0px 5px 0px white;
+}
+.mini-container {
+  width: 700px;
+  height: 700px;
+  margin-left: 100px;
+}
+/* .container{
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+} */
+.page {
+  color: black;
+  text-decoration: none;
+}
+.logo {
+  color: black;
+  text-decoration: none;
+}
+.url {
+  color: white;
+  position: relative;
+  top: -50px;
+  font-size: 20px;
+  z-index: -1;
+  height: 100vh;
+  background-image: url("./assets/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg");
+  background-size: 100%;
+}
+.vlog {
+  position: relative;
+  top: -50px;
+  font-size: 20px;
+  z-index: -1;
+}
+.contentVlog {
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-shadow: 5px 5px 5px 0px rgb(200, 200, 200);
+  background-color: white;
+  flex-direction: column;
+}
+.imgContent {
+  width: 52px;
+  height: 56px;
+  border-radius: 50%;
+}
+.star {
+  width: 16px;
+  height: 17px;
+}
+.paragraphContent {
+  width: 250px;
+  height: 180px;
+  line-height: 29.37px;
+  margin-bottom: 20px;
+}
+.imgContent {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.profileContent {
+  width: 300px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.nameContent {
+  margin-left: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  height: 30px;
+}
+.scroll {
+  overflow-x: scroll;
+}
+.hub {
+  height: auto;
+  padding-bottom: 50px;
+}
+.homeText {
+  margin-left: 50px;
+}
+.textTitle {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  width: 400px;
+  height: 120px;
+}
+.textText {
+  font-size: 18px;
+  font-weight: 600;
+  width: 465px;
+  height: 165px;
+  color: #182d40;
+  line-height: 29px;
+}
+.imgHubContainer {
+  position: relative;
+  left: 1000px;
+}
+.attach {
+  height: 130px;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 4px 5px 35px 0px gray;
+  width: 260px;
+}
+.attachDiv {
+  position: relative;
+  top: 400px;
+  left: -200px;
+}
+.imgHub {
+  box-shadow: 5px 15px 35px 5px gray;
+}
+.bell {
+  width: 79px;
+  height: 79px;
+  background-color: #ffb200;
+  box-shadow: 1px 2px 17px 0px grey;
+  position: relative;
+  top: 700px;
+  left: -50px;
+}
+.taskImgContainer {
+  width: 824px;
+  height: 575px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/967e/b14e/6fc29dfe6ee46cdd918b8c8b106d5e66?Expires=1668988800&Signature=dpEsD0ei5m9QfwHx~as~U0V7xeGvO7d53kPPwg3THdsqWhZ3BFKy~PLCysDG670VUW-Y8k4Ww9xSlmYGy4T24miNWSKPQB6UQU8-TzyUJr5amx0IOwc155NrfQ0cOxr-DbvMjszg-JdJAsJXvcov0fE4D2tgtniFYJIuM~-kiMcNGZrxtu6EZYK7yKd64bXYAosJZm2mRPvqtOQ18yR6PLFcmMgoBLZOqk~Zon3DwNabgeShYPUHW2QYOzqth0aELN9TRjogVGYQisV6YLl8TCPcp3MGZjg4fdW-Hcc8HzAUwg4fHCGKzXajezzhJPmdiKLR861E3qX0rsNTn4EsbQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+}
+.attachDivContainer {
+  position: relative;
+  top: 20px;
+  left: 500px;
+}
+.attachDivContainerTwo {
+  position: relative;
+  top: 50px;
+  left: 500px;
+}
+.miniCalendar {
+  width: 824px;
+  height: 575px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/9b79/b9cf/49bac0ef10dfa8c6bf50bec13d962a3b?Expires=1668988800&Signature=cZufl37JPiIUSCuBggezpIC4Qrupc3CG~5ExltJai4XPbwXWSq7KI0mvBGwlBMxZ9WJS4P~d~e9IZdP-urF9fYEMMWs~KDWGRkx1K8nm35jgcp6w85O0LzP3u5QhVNNl91CGhUAPjbSfPx7ipMIGhl1OsDLeOFOdVLE3CJt4RqqYDwmvYN~Cq24f2MNVN1pjy~TGKKDzNdlE2xclJqVIaH0~f9mxUgO3-Bd7t3TcIOkRE7SXSU3CdYRUEUopK7l5ToyH8RR2NjSNnVCKIsK-BxQN-ROi2BT0Pp-AlZSWxTTF3GEG~Fj3~SQIsGAdd5yQIEww1jonpXBYD~OOge-cDg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+}
+.month {
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.day {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  color: #808080;
+}
+.dayTwo {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  color: #e6e6e6;
+}
+.dayThree {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  color: #999999;
+}
+.dayTwo:hover,
+.dayThree:hover {
+  background-color: #f5f5f5;
+}
+.year {
+  width: 270px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  color: #989898;
+}
+.learn {
+  color: #4da0fd;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  font-weight: 500;
+}
